@@ -39,7 +39,7 @@ export default function SignIn() {
       <VStack flex={1} bg="gray.700" px={10}>
         <Center my={24}>
           <Text color="gray.100" fontWeight='bold' fontSize="lg">
-            TodoApp
+            Triangulum App
           </Text>
           <Text color="gray.100" fontSize="sm">
             by Matheus Lima
