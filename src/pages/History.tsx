@@ -139,10 +139,10 @@ export function History() {
         sections={tasks}
         keyExtractor={(item, index) => index.toString()}
         renderItem={({ item }: { item: Task }) => (
-          <VStack marginBottom={20} key={item.id} flexDirection="row" justifyContent="space-between" px={8}>
+          <VStack marginBottom={20} backgroundColor={'black'} key={item.id} flexDirection="row" justifyContent="space-between">
             <Text color='white' fontSize={28}>{item.descricao}</Text>
             <VStack>
-              <Button  title='atualizar' onPress={() => handleUpdateTask(item.id)} />
+              <Button title='atualizar' onPress={() => handleUpdateTask(item.id)} />
               <Button title='deletar' onPress={() => handleDeleteTask(item.id)} />
             </VStack>
           </VStack>
